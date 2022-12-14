@@ -1,0 +1,21 @@
+@import "../../App.scss";
+
+.input {
+    margin: 15px;
+    text-align: center;
+    background: none;
+    outline: none;
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 1px solid $color2;
+    border-radius: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
+    &::placeholder {
+        color: #8a6767
+    }
+}

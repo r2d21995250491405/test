@@ -1,0 +1,19 @@
+.app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 570px 1fr;
+    grid-template-areas: "aside content";
+}
+
+.login {
+    grid-area: aside;
+}
+
+.content {
+    grid-area: content;
+}
+
+$color1:rgba(0, 0, 0, 0.899);
+$color2:rgba(163, 25, 15, 0.859);

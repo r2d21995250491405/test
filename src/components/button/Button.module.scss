@@ -1,0 +1,16 @@
+.button {
+    width: 100px;
+    height: 36px;
+    display: block;
+    outline: none;
+    background: none;
+    border: 1px solid red;
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all .2s;
+    cursor: pointer;
+    &:hover {
+        transform:skew(-0.06turn, 18deg)
+    }
+}

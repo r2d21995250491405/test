@@ -1,0 +1,14 @@
+@import '../../App.scss';
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 49px;
+    .spanColor1 {
+        color:$color2
+    }
+
+    .spanColor2 {
+        color:$color1
+    }
+}
